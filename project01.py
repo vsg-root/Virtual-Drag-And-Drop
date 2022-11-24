@@ -26,7 +26,7 @@ while True:
         print(l)
         if l < 30:
             cursor = lmList[8]
-            if cx-w//2 < cursor[0] < cx+w//2 and cy-h//2 < cursor[1] < cy+h//2: # Se os pontos do Traking estiverem dentro das coodenadas que limitam a existência do quadrado, a cor do objeto mudará para verde
+            if cx-w//2 < cursor[0] < cx+w//2 and cy-h//2 < cursor[1] < cy+h//2: # Se os pontos do Traking estiverem dentro das coordenadas que limitam a existência do quadrado, a cor do objeto mudará para verde
                 colorR = 0, 255, 0
                 cx, cy = cursor
 
